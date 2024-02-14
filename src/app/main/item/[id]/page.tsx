@@ -7,7 +7,5 @@ export interface SingleItemProps {
 }
 
 export default function SingleItem({ params: { id } }: SingleItemProps) {
-  return (
-    <header className="container bg-sky-500 h-[80px]">SingleItem{id}</header>
-  );
+  return <div className="container bg-sky-500 h-[80px]">SingleItem{id}</div>;
 }
