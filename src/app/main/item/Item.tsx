@@ -31,7 +31,6 @@ export default async function Item({}: ItemProps) {
                   </div>
                 </div>
                 <p className="font-price">Price : {el.price}.00 UAH/hr</p>
-                <button type="button">X</button>
               </div>
             </Link>
           </li>

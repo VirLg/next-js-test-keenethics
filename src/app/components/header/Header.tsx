@@ -9,6 +9,7 @@ export default function Header({}: HeaderProps) {
       <Link href="/main">Main</Link>
       <Link href="/home">Home</Link>
       <Link href="/statistics">Statistics</Link>
+      <Link href="/about">About</Link>
     </header>
   );
 }

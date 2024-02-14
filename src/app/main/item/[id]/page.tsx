@@ -1,3 +1,4 @@
+import { getSingleItem } from '@/app/api/api';
 import React from 'react';
 
 export interface SingleItemProps {
@@ -6,6 +7,8 @@ export interface SingleItemProps {
   };
 }
 
-export default function SingleItem({ params: { id } }: SingleItemProps) {
-  return <div className="container bg-sky-500 h-[80px]">SingleItem{id}</div>;
+export default async function SingleItem({ params: { id } }: SingleItemProps) {
+  const singleItem = `${console.log('id', id)}`;
+
+  return <div className="container bg-sky-500 h-[80px]">{singleItem}</div>;
 }

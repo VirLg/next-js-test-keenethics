@@ -1,7 +1,5 @@
 import React from 'react';
 
-import Link from 'next/link';
-import { getAllItem } from '../api/api';
 import Item from './item/Item';
 export interface MainProps {}
 
