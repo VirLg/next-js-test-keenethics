@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 body {
+  color: gray-dark;
 }
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -13,4 +15,8 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+a:hover,
+a:focus {
+  cursor: pointer;
 }

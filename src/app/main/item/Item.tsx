@@ -12,7 +12,7 @@ export default async function Item({}: ItemProps) {
         return (
           <li key={el.id}>
             <Link href={`/main/item/${el.id}`}>
-              <div className="container bg-gray-200 h-[90px] mt-2">
+              <div className="w-[600px] mt-3 border-slate-600 border-2 rounded-xl bg-gray-200 h-[86px] mt-2 p-2 pl-4">
                 <div>
                   <div style={{ display: 'flex' }}>
                     <p>Name : {el.name}</p>
