@@ -6,6 +6,7 @@ export interface MainProps {
   companyId: string;
 }
 const getAllItem = async () => {
+  console.log('first', 'first');
   const response = await fetch(
     'https://node-js-test-keenethics-mongobd.onrender.com/api/bikes'
   );
